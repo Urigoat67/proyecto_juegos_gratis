@@ -70,6 +70,55 @@ a {
     background-color: #d4ac0d;
 }
 
+/* ===== SECCIÓN MANUAL DE MEGA HILO ===== */
+.manual {
+    background-color: #ffffff;
+    padding: 50px 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.manual-titulo {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.manual-intro {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 40px auto;
+    color: #555;
+}
+
+.manual-paso {
+    background-color: #f9f9f9;
+    border-left: 5px solid #3498db;
+    border-radius: 6px;
+    padding: 20px 25px;
+    margin-bottom: 30px;
+}
+
+.manual-paso h3 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.manual-paso p {
+    margin-bottom: 15px;
+}
+
+.manual-img {
+    display: block;
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin: 0 auto 15px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
 /* ===== SECCIÓN PLATAFORMA DE APRENDIZAJE ===== */
 .plataforma {
     background-color: #ffffff;
@@ -85,7 +134,28 @@ a {
 
 .plataforma p {
     max-width: 700px;
-    margin: 0 auto;
+    margin: 0 auto 30px auto;
+}
+
+.plataforma-logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.logo-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 260px;
+}
+
+.logo-img {
+    width: 200px;
+    height: 120px;
+    object-fit: contain;
 }
 
 /* ===== PIE DE PÁGINA ===== */
