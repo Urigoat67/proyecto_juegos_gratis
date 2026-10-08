@@ -70,6 +70,24 @@ a {
     background-color: #d4ac0d;
 }
 
+/* ===== SECCIÓN PLATAFORMA DE APRENDIZAJE ===== */
+.plataforma {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.plataforma h2 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 15px;
+}
+
+.plataforma p {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
 /* ===== PIE DE PÁGINA ===== */
 .footer {
     background-color: #2c3e50;
